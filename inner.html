@@ -25,16 +25,42 @@
 
       margin-bottom: 10px;
     }
+    .small-title {
+      text-decoration: none;
+      list-style: none;
+      font-weight: bolder;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <p>
-      <strong>演示 目录：</strong>
+    <p style="text-align: left; margin-bottom: 30px;">
+      <strong style="font-size: 24px;">没有设置为短链接的：</strong>
     </p>
     <ul>
       <li>
         <a href="https://gitee.com/az22c/umi_cms-frontend#代码逻辑演示" target="_self">axios拦截器中间件化</a>
+      </li>
+      <li style="text-decoration: none;">
+        <div>checklist：</div>
+      </li>
+      <li>
+        <!-- <div> -->
+        <a href="https://gitee.com/az22c/element-checklist/blob/master/src/views/FormEditor/FormCode/snippetVue.js">
+          【1】其实就是选对了用 模板字符串和它的$插值，才有大面积模板。insertBlanks也可以存活在$插值里面。  用（能回收isExist）的函数括号框顶替模板内的花括号、函数的方括号。
+        </a>
+        <!-- </div> -->
+        <div>
+          【1-1】切换关注点：函数括号框顶替模板内的花括号、方括号（也是靠的$插值才有的）
+        </div>
+      </li>
+      <li>
+        <div>
+          【2】其实就是把不直观的、处理边际情况的操作 **挪到一行代码的后面**，比如控制片段是否产生和控制缩进等
+        </div>
+        <a href="https://github.com/vform666/variant-form/blob/master/src/utils/validators.js">
+          对比别人代码
+        </a>
       </li>
     </ul>
   </div>
