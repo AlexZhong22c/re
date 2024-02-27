@@ -1,43 +1,51 @@
 <html>
 <head>
+  <title>a演示目录</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <meta name="author" content="az22c" />
+  <meta name="description" content="az22c 演示目录">
+  <meta charset="UTF-8" />
   <style>
+    html {
+      background: #f0f0f0;
+    }
     .container {
+      width: 320px;
+      margin: 30px auto 0 auto;
       text-align: center;
     }
-/* 超小设备（手机，小于 768px） */
-@media screen and (min-width:480px){ body { width: 480px; } }
-/* 小型设备（平板电脑，768px 起） */
-@media screen and (min-width:768px){ body { width: 768px; } }
-/* 中型设备（台式电脑，992px 起） */
-@media screen and (min-width:992px){ body { width: 992px; } }
-/* 大型设备（大台式电脑，1200px 起） */
-@media screen and (min-width:1200px){ 
-body { width: 1200px; }
-}
+    .container ul {
+      display: inline-block;
+      margin-top: 0;
+    }
+    .container li {
+      word-wrap: break-word;
+      white-space: normal;
+      word-break: break-all;
+
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <p>
-      <strong>目录：</strong>
+      <strong>演示 目录：</strong>
     </p>
-    <p>
-      <a href="./ch" target="_self">代码生成 demo</a>
-    </p>
-    <p>
-      <a href="./chc" target="_self">代码生成 code</a>
-    </p>
-    <p>
-      <a href="./ui" target="_self">自制UI库 demo</a>
-    </p>
-    <p>
-      <a href="./uic" target="_self">自制UI库 code</a>
-    </p>
-    <p>
+    <ul>
+      <li>
+        <a href="./ch" target="_self">代码生成 demo</a>
+      </li>
+      <li>
+        <a href="./chc" target="_self">代码生成 code</a>
+      </li>
+      <li>
+        <a href="./ui" target="_self">自制UI库 demo</a>
+      </li>
+      <li>
+        <a href="./uic" target="_self">自制UI库 code</a>
+      </li>
+    </ul>
   </div>
-
-
-  </p>
 </body>
 </html>
