@@ -2,22 +2,32 @@
   "redirects": [
     { 
       "source": "/ch",
-      "destination": "/element-checklist/", 
+      "destination": "https://x.az22c.top/ch", 
       "permanent": true
     },
     { 
-      "source": "/element-checklist",
-      "destination": "/element-checklist/", 
+      "source": "/chc",
+      "destination": "https://gitee.com/az22c/element-checklist", 
       "permanent": true
     },
     { 
       "source": "/ui",
-      "destination": "/viewz/", 
+      "destination": "https://x.az22c.top/ui", 
+      "permanent": true
+    },
+    { 
+      "source": "/uic",
+      "destination": "https://gitee.com/az22c/viewz/tree/master/test", 
       "permanent": true
     },
     { 
       "source": "/td",
-      "destination": "/todo-app/", 
+      "destination": "https://x.az22c.top/td", 
+      "permanent": true
+    },
+    { 
+      "source": "/tdc",
+      "destination": "https://gitee.com/az22c/todo-webapp", 
       "permanent": true
     },
     { 
@@ -26,56 +36,24 @@
       "permanent": true
     },
     { 
+      "source": "/hide",
+      "destination": "https://x.az22c.top/viewz/hide/", 
+      "permanent": true
+    },
+    { 
+      "source": "/fo",
+      "destination": "https://x.az22c.top/viewz/fo/", 
+      "permanent": true
+    },
+    { 
       "source": "/tags/shu",
-      "destination": "https://blog.az22c.top/tags/shu", 
+      "destination": "https://x.az22c.top/tags/shu", 
       "permanent": true
     },
     { 
       "source": "/op",
-      "destination": "https://blog.az22c.top/2018/02/04/performance-optimized-summary", 
+      "destination": "https://x.az22c.top/op", 
       "permanent": true
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/element-checklist/",
-      "destination": "https://element-checklist.vercel.app"
-    },
-    {
-      "source": "/element-checklist/:match*",
-      "destination": "https://element-checklist.vercel.app/:match*"
-    },
-    {
-      "source": "/todo-app/",
-      "destination": "https://todo-webapp-az22c.vercel.app"
-    },
-    {
-      "source": "/todo-app/:match*",
-      "destination": "https://todo-webapp-az22c.vercel.app/:match*"
-    },
-    {
-      "source": "/viewz/",
-      "destination": "https://az22c-viewz.vercel.app"
-    },
-    {
-      "source": "/viewz/hide/",
-      "destination": "https://az22c-viewz.vercel.app/hide/index.html"
-    },
-    {
-      "source": "/viewz/install/",
-      "destination": "https://az22c-viewz.vercel.app/install/index.html"
-    },
-    {
-      "source": "/viewz/fo/",
-      "destination": "https://az22c-viewz.vercel.app/fo/index.html"
-    },
-    {
-      "source": "/viewz/get-started/",
-      "destination": "https://az22c-viewz.vercel.app/get-started/index.html"
-    },
-    {
-      "source": "/viewz/:match*",
-      "destination": "https://az22c-viewz.vercel.app/:match*"
     }
   ]
 }
